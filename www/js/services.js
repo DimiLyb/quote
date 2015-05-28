@@ -34,6 +34,7 @@ angular.module('starter.services', [])
   return {
     all: function() {
       return chats;
+      
     },
     remove: function(chat) {
       chats.splice(chats.indexOf(chat), 1);
@@ -45,8 +46,6 @@ angular.module('starter.services', [])
         }
       }
       return null;
-      
-      
     }
   };
 });
